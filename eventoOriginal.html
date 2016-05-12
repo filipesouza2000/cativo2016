@@ -1,0 +1,138 @@
+<div id="Screen" style="visibility:hidden;display:none;position:absolute;">  
+	<a name="screen"/>
+	<table border="2" cellspacing="0" cellpadding="0">  
+		<tr>  
+			<td colspan="3" bgcolor="#9999FF" align="right"><a href="javascript:void(HideScreen());">[X]</a></td>  
+		</tr>  
+		<tr>  
+			<td colspan="3"><img id="imgGrande" src='' alt='Rio Parts'/></td>  
+		</tr>
+		<tr>
+			<td bgcolor="white">
+			<a href="javascript:void(ShowScreen('eventos/rioparts_2012/3.jpg'));"><img width="60" height="60" src="eventos/rioparts_2012/3.jpg" alt='Rio Parts'/></a>
+			</td>
+			<td bgcolor="white">
+			<a href="javascript:void(ShowScreen('eventos/rioparts_2012/2.jpg'));"><img width="60" height="60" src="eventos/rioparts_2012/2.jpg" alt='Rio Parts'/></a>
+			</td>
+			<td bgcolor="white">
+			<a href="javascript:void(ShowScreen('eventos/rioparts_2012/1.jpg'));"><img width="60" height="60" src="eventos/rioparts_2012/1.jpg" alt='Rio Parts'/></a>
+			</td>
+		</tr>
+	</table>  
+</div>
+
+<script type="text/javascript" language="javascript">    
+	  
+    var screenGrd;
+	var imgGrande;
+    //Exibe a imagem grande, passando por parâmetro o caminho da imagem  
+    function ShowScreen(imgGrd)  
+    {  
+	 screenGrd = document.getElementById('Screen');
+     img = new Image();  
+     img.src = imgGrd;
+     imgGrande = document.getElementById('imgGrande');
+	 imgGrande.src = imgGrd;
+      
+     //Exibe e centraliza a imagem grande no browser  
+     screenGrd.style.visibility = 'visible';  
+     screenGrd.style.display = 'inline';
+     screenGrd.style.top = '100px';//(document.body.offsetHeight/2) - (imgGrande.offsetHeight/2)+"px";  
+     screenGrd.style.left = (document.body.offsetWidth/2) - (imgGrande.offsetWidth/2)+"px";  
+	 screenGrd.scrollIntoView(true);
+    }  
+      
+    //Fecha a imagem grande  
+    function HideScreen()  
+    {
+	 screenGrd.style.visibility = 'hidden';  
+     screenGrd.style.display = 'none';  
+    }  
+	
+	</script>
+	<?php//<img src='imagem1.jpg' > dsfhusfhsudfh  fgdf </img>?>
+	<p><img style='max-width:550px' src='castrol/logocastrol.svg'/>
+		<br>
+			Revendedor Autorizado
+		<br>
+	<a href="<?=$link?>castrol.php">Acesse aqui nosso Catálogo CASTROL</a>
+	</p>
+	<!--Video Castrol adicionado 09/10/2015 Inicio-->
+	<p align="center" style="font-size:1em">
+	<a name="Video historia Castrol"/>
+	<iframe title="Vídeo Institucional Perfect" frameborder="0" height="270" src="//www.youtube.com/embed/vMSREOh_PPU" width="480">
+		<a href="//www.youtube.com/embed/vMSREOh_PPU">Video da história da Castrol</a>
+	</iframe>
+	</p>
+	<!--Video Castrol adicionado 09/10/2015 Inicio-->
+	<p>&nbsp;</p>	
+	<p><img style='max-width:550px' src='images/Perfect.jpg'/></p>
+	<p>
+			Só um é Perfect.<br/>
+			Para mais informações acesse o vídeo abaixo:<br/>
+			<a href ="http://www.youtube.com/watch?v=sP-eIJCaVxw">www.youtube.com/watch?v=sP-eIJCaVxw</a><?php//<a href="url"> texto que ao clicar leva ao link ?>
+	</p>
+	<p>&nbsp;</p>
+	<p><br/></p>
+	<!--<p align="center" style="font-size:1em"><img src="/images/trabalhador.jpg" alt="Dia do Trabalhador" height="400"/></p>
+	<p><br/></p>
+	<p><br/></p>-->
+	<p align="center" style="font-size:1em">
+	<a name="Automec2015"/>
+	<iframe title="Caravana Perfect" frameborder="0" height="270" width="85%" src="//www.youtube.com/embed/DRDyMcZx118" >
+		<a href="//www.youtube.com/embed/DRDyMcZx118">Video da nossa visita à Fábrica da Perfect</a>
+	</iframe>
+	</p>
+	Visita à Perfect 2015
+	<p><br/></p>
+	<p><br/></p>
+	<p align="center" style="font-size:1em"><a href="eventos/inauguracao"><img alt='Inauguração' src="eventos/inauguracao/imagens/01.jpg" height="400"/></a></p>
+	Evento de Inaugura&ccedil;&atilde;o da nova Sede da Cativo
+	<p><br/></p>
+	<p><br/></p>
+	<p align="center" style="font-size:1em">
+	<a name="Tecbril"/>
+	<iframe title="Vídeo Institucional Tecbril" frameborder="0" height="270" width="85%" src="//www.youtube.com/embed/OVgBV1Zq4JM" >
+		<a href="//www.youtube.com/embed/OVgBV1Zq4JM">Video Institucional Tecbril</a>
+	</iframe>
+	</p>
+	V&iacute;deo Institucional Tecbril
+	<p><br/></p>
+	<p><br/></p>
+	<p align="center" style="font-size:1em">
+	<a name="Perfect"/>
+	<iframe title="Vídeo Institucional Perfect" frameborder="0" height="270" src="//www.youtube.com/embed/sP-eIJCaVxw" width="480">
+		<a href="//www.youtube.com/embed/sP-eIJCaVxw">Video Institucional Perfect</a>
+	</iframe>
+	</p>
+	V&iacute;deo Institucional Perfect
+	<p><br/></p>
+	<p><br/></p>
+	<p align="center" style="font-size:1em"><a href="eventos/Evento_mahle"><img src="eventos/Evento_mahle/imagens_grandes/000MAHLEMETALLEVE.jpg" alt="Mahle - Metal Leve"  width="400"/></a></p>
+	Visita Mahle/ Metal Leve
+	<p><br/></p>
+	<p><br/></p>
+	<p align="center" style="font-size:1em"><a href="eventos/evento_automec"><img src="eventos/evento_automec/imagens/000perfect.jpg" alt="Perfect - Automec" width="400px"/></a></p>
+	Visita &agrave; F&aacute;brica da Perfect e ao evento Automec 2013
+	<!--
+	<p><br></p>
+	<p><br></p>
+	<p align="center" style="font-size:1em"><a href="javascript:void(ShowScreen('eventos/rioparts_2012/capa_gr.jpg'));"><img alt="Rio Parts" src="eventos/rioparts_2012/capa_gr.jpg"></a></p>
+	Evento Rio Parts 2012
+	<p><br></p>
+	<p><br></p>
+	<p align="center" stype="font-size:1em"><a href="eventos/Evento_Pitstop"><img alt="Evento Pitstop" src="eventos/Evento_Pitstop/imagens_grandes/abertura.JPG" width="400"></a></p>
+	Visita ao Evento Pitstop em Valen&ccedil;a
+	<p><br></p>
+	<p><br></p>
+	<p align="center" style="font-size:1em"><img alt="Encontro de Lojistas" src="evento_cativo_2011/imagens/convite_cativo.jpg" width="281" height="198" /></p>
+	<p align="center" style="font-size:1em">Veja as fotos do Encontro De Lojistas e <br />
+    Clientes de Auto-Pe&ccedil;as do Sul Fluminense 2011.</p>
+    <p align="center" style="font-size:1em; color:#006699"><a href="evento_cativo_2011/index.html">Clique Aqui</a><br />
+    </p>
+	-->
+	
+	
+	
+	
+	
